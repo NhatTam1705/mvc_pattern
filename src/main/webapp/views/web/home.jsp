@@ -3,7 +3,6 @@
     Created on : Oct 9, 2021, 8:40:33 PM
     Author     : 19110
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -376,10 +375,16 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas me-1"></i>
-                                       Open Project
-                                    </button>
+                                    <form action="emailList" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <i class="fas me-1"></i>
+                                            Open Project
+                                        </button>
+                                    </form>
+                                    <form action="emailList" method="post">
+                                        <input type="hidden" name="action" value="join">
+                                        <input type="submit" value="Return">
+                                    </form>
                                 </div>
                             </div>
                         </div>
