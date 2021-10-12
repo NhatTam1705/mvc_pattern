@@ -1,4 +1,14 @@
-com\mywebapp\mvc_pattern\exercise\lesson2\data\UserDB.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part2\business\User.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part1\data\UserDB.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part1\email\EmailListServlet.class
 com\mywebapp\mvc_pattern\web\Controller.class
-com\mywebapp\mvc_pattern\exercise\lesson2\business\User.class
-com\mywebapp\mvc_pattern\exercise\lesson2\email\EmailListServlet.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part2\email\TestServlet.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part1\business\User.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part2\email\EmailListServlet.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part2\data\UserDB.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part2\email\EmailListServlet.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part2\business\User.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part1\data\UserDB.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part1\business\User.class
+com\mywebapp\mvc_pattern\exercise\lesson2\part2\data\UserDB.class
+com\mywebapp\mvc_pattern\exercise\lesson3\part1\email\EmailListServlet.class

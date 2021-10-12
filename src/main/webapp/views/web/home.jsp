@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top"><img src="images/web/navbar-logo3.jpg" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
@@ -336,7 +336,7 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                         <i class="fas me-1"></i>
                                         Open Project    
                                     </button>
@@ -375,15 +375,17 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <form action="emailList" method="post">
-                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <form action="emailList21" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                             <i class="fas me-1"></i>
-                                            Open Project
+                                            Open Project 2.1
                                         </button>
                                     </form>
-                                    <form action="emailList" method="post">
-                                        <input type="hidden" name="action" value="join">
-                                        <input type="submit" value="Return">
+                                    <form action="test22" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase mt-5" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project 2.2
+                                        </button>
                                     </form>
                                 </div>
                             </div>
@@ -417,10 +419,12 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas me-1"></i>
-                                        Open Project
-                                    </button>
+                                    <form action="emailList31" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -453,7 +457,7 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                         <i class="fas me-1"></i>
                                         Open Project
                                     </button>
@@ -490,7 +494,7 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                         <i class="fas me-1"></i>
                                         Open Project
                                     </button>
@@ -525,7 +529,7 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                         <i class="fas me-1"></i>
                                         Open Project
                                     </button>
