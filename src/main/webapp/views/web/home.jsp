@@ -422,7 +422,13 @@
                                     <form action="emailList31" method="post">
                                         <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
                                             <i class="fas me-1"></i>
-                                            Open Project
+                                            Open Project 3.1
+                                        </button>
+                                    </form>
+                                    <form action="lesson3part2" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase mt-5" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project 3.2
                                         </button>
                                     </form>
                                 </div>

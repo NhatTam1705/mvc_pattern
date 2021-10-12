@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import com.mywebapp.mvc_pattern.exercise.lesson3.part1.business.User;
 import com.mywebapp.mvc_pattern.exercise.lesson3.part1.data.UserDB;
 
-@WebServlet(urlPatterns = { "/emailList3"})
+@WebServlet(urlPatterns = { "/emailList31"})
 public class EmailListServlet extends HttpServlet {
 
     @Override

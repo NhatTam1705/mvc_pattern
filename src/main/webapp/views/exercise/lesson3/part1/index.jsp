@@ -21,5 +21,8 @@
     <label>&nbsp;</label>
     <input type="submit" value="Join Now" class="margin_left">
 </form>
+<form action="trang-chu" method="post">
+    <input type="submit" value="Return" style="margin-top: 15px; margin-left: -97px;">
+</form>
 
 <c:import url="/views/exercise/lesson3/part1/includes/footer.jsp" /> 
