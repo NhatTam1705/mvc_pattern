@@ -41,4 +41,17 @@ br {
 }
 .margin_left {
     margin-left: 0.5em;
+    cursor:pointer;
+}
+
+.form-in{
+    position:absolute;
+}
+.form-out{
+    position:relative;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+.btn-return{
+    cursor:pointer;
 }

@@ -25,7 +25,7 @@
 
     <form action="" method="post">
         <input type="hidden" name="action" value="join">
-        <input type="submit" value="Return">
+        <input class="btn-return" type="submit" value="Return">
     </form>
 
 </body>
