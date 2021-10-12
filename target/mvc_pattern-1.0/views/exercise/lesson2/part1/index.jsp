@@ -11,7 +11,7 @@
     <p>To join our email list, enter your name and
        email address below.</p>
     <p><i>${message}</i></p>
-    <form action="emailList21" method="post">
+    <form class="form-in" action="emailList21" method="post">
         <input type="hidden" name="action" value="add">        
         <label class="pad_top">Email:</label>
         <input type="email" name="email" value="${user.email}"><br>
@@ -22,8 +22,8 @@
         <label>&nbsp;</label>
         <input type="submit" value="Join Now" class="margin_left">
     </form>
-    <form action="trang-chu" method="post">
-        <input type="submit" value="Return" style="margin-top: 15px; margin-left: -97px;">
+    <form class="form-out" action="trang-chu" method="post">
+        <input class="btn-return" type="submit" value="Return">
     </form>
 </body>
 </html>
