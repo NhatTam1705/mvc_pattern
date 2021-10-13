@@ -35,6 +35,17 @@ br {
     clear: both;
 }
 
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+
 /* The styles for the classes */
 .pad_top {
     padding-top: 0.25em;
@@ -42,17 +53,9 @@ br {
 .margin_left {
     margin-left: 0.5em;
 }
-
-.form-in{
-    position:absolute;
+.align_left {
+    text-align: left;
 }
-
-.form-out{
-    position: absolute;
-    margin-left: 220px;
-    margin-top: 86px;
-}
-.btn-return{
-    cursor: pointer;
-    width: 71px;
+.align_right {
+    text-align: left;
 }
