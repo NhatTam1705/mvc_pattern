@@ -41,16 +41,12 @@ br {
 }
 .margin_left {
     margin-left: 0.5em;
-<<<<<<< HEAD
     cursor:pointer;
-=======
->>>>>>> main
 }
 
 .form-in{
     position:absolute;
 }
-<<<<<<< HEAD
 .form1-out{
     position:relative;
     margin-left: 220px;
@@ -67,15 +63,4 @@ br {
 }
 .btn-return{
     cursor:pointer;
-=======
-
-.form-out{
-    position: absolute;
-    margin-left: 220px;
-    margin-top: 86px;
-}
-.btn-return{
-    cursor: pointer;
-    width: 71px;
->>>>>>> main
 }
