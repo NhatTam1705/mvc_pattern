@@ -21,9 +21,14 @@
     <label>&nbsp;</label>
     <input type="submit" value="Join Now" class="margin_left">
 </form>
+<<<<<<< HEAD
 <form class="form1-out" action="trang-chu" method="post">
     <!-- <%-- <input type="submit" value="Return" style="margin-top: 15px; margin-left: -97px;"> --%> -->
     <input class ="btn-return" type="submit" value="Return">
+=======
+<form class="form-out" action="trang-chu" method="post">
+    <input class="btn-return" type="submit" value="Return">
+>>>>>>> main
 </form>
 
 <c:import url="/views/exercise/lesson3/part1/includes/footer.jsp" /> 
