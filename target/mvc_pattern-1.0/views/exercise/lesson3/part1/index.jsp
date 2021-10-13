@@ -21,8 +21,8 @@
     <label>&nbsp;</label>
     <input type="submit" value="Join Now" class="margin_left">
 </form>
-<form class="form-out" action="trang-chu" method="post">
-    <%-- <input type="submit" value="Return" style="margin-top: 15px; margin-left: -97px;"> --%>
+<form class="form1-out" action="trang-chu" method="post">
+    <!-- <%-- <input type="submit" value="Return" style="margin-top: 15px; margin-left: -97px;"> --%> -->
     <input class ="btn-return" type="submit" value="Return">
 </form>
 

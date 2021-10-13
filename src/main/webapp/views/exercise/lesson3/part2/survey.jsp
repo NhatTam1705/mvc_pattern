@@ -28,7 +28,7 @@
         <span>${user.contactVia}</span>
     </c:if>   
     <form action="lesson3part2" method="post">
-        <input type="submit" value="Return" style="margin-top:5px">
+        <input class ="btn-return" type="submit" value="Return" style="margin-top:5px; margin-left:-96px">
     </form> 
     
 </body>
