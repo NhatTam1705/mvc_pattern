@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="styles/exercise/lesson4/main.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
 
@@ -12,7 +12,7 @@
 <p>To register for our downloads, enter your name and email
    address below. Then, click on the Submit button.</p>
 
-<form action="downloadl4p1" method="post">
+<form action="download" method="post">
     <input type="hidden" name="action" value="registerUser">        
     <label class="pad_top">Email:</label>
     <input type="email" name="email" value="${user.email}"><br>

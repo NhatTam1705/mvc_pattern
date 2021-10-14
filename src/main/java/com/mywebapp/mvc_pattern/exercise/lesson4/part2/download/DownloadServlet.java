@@ -1,15 +1,15 @@
-package com.mywebapp.mvc_pattern.exercise.lesson4.part1.download;
+package com.mywebapp.mvc_pattern.exercise.lesson4.part2.download;
 
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
-import com.mywebapp.mvc_pattern.exercise.lesson4.part1.business.User;
-import com.mywebapp.mvc_pattern.exercise.lesson4.part1.data.UserIO;
-import com.mywebapp.mvc_pattern.exercise.lesson4.part1.util.CookieUtil;
+import com.mywebapp.mvc_pattern.exercise.lesson4.part2.business.*;
+import com.mywebapp.mvc_pattern.exercise.lesson4.part2.data.*;
+import com.mywebapp.mvc_pattern.exercise.lesson4.part2.util.CookieUtil;
 
-@WebServlet(urlPatterns = { "/downloadl4p1"})
+@WebServlet(urlPatterns = { "/downloadl4p2"})
 public class DownloadServlet extends HttpServlet {
 
     @Override
@@ -24,13 +24,13 @@ public class DownloadServlet extends HttpServlet {
         }
 
         // perform action and set URL to appropriate page
-        String url = "/views/exercise/lesson4/part1/index.jsp";
+        String url = "/views/exercise/lesson4/part2/index.jsp";
         if (action.equals("viewAlbums")) {
-            url = "/views/exercise/lesson4/part1/index.jsp";
+            url = "/views/exercise/lesson4/part2/index.jsp";
         } else if (action.equals("checkUser")) {
             url = checkUser(request, response);
         } else if (action.equals("viewCookies")) {
-            url = "/views/exercise/lesson4/part1/view_cookies.jsp";
+            url = "/views/exercise/lesson4/part2/view_cookies.jsp";
         } else if (action.equals("deleteCookies")) {
             url = deleteCookies(request, response);
         }
@@ -49,7 +49,7 @@ public class DownloadServlet extends HttpServlet {
         String action = request.getParameter("action");
         
         // perform action and set URL to appropriate page
-        String url = "/views/exercise/lesson4/part1/index.jsp";
+        String url = "/views/exercise/lesson4/part2/index.jsp";
         if (action.equals("registerUser")) {
             url = registerUser(request, response);
         }
@@ -64,8 +64,15 @@ public class DownloadServlet extends HttpServlet {
             HttpServletResponse response) {
 
         String productCode = request.getParameter("productCode");
-        HttpSession session = request.getSession();
-        session.setAttribute("productCode", productCode);
+        HttpSession session = request.getSession();        
+        
+        // get Product object and set it as session attribute
+        ServletContext sc = this.getServletContext();
+        String productPath = sc.getRealPath("/WEB-INF/products.txt");
+        Product product = ProductIO.getProduct(productCode, productPath);
+        session.setAttribute("product", product);
+        
+        // get the User object
         User user = (User) session.getAttribute("user");
 
         String url;
@@ -77,20 +84,19 @@ public class DownloadServlet extends HttpServlet {
 
             // if cookie doesn't exist, go to Registration page
             if (emailAddress == null || emailAddress.equals("")) {
-                url = "/views/exercise/lesson4/part1/register.jsp";
+                url = "/views/exercise/lesson4/part2/register.jsp";
             } 
             // if cookie exists, create User object and go to Downloads page
             else {
-                ServletContext sc = getServletContext();
                 String path = sc.getRealPath("/WEB-INF/EmailList.txt");
                 user = UserIO.getUser(emailAddress, path);
                 session.setAttribute("user", user);
-                url = "/views/exercise/lesson4/part1/" + productCode + "_download.jsp";
+                url = "/views/exercise/lesson4/part2/" + productCode + "_download.jsp";
             }
         } 
         // if User object exists, go to Downloads page
         else {
-            url = "/views/exercise/lesson4/part1/" + productCode + "_download.jsp";
+            url = "/views/exercise/lesson4/part2/" + productCode + "_download.jsp";
         }
         return url;
     }
@@ -119,14 +125,14 @@ public class DownloadServlet extends HttpServlet {
         session.setAttribute("user", user);
 
         // add a cookie that stores the user's email to browser
-        Cookie c = new Cookie("userEmail", email);
-        c.setMaxAge(60 * 60 * 24 * 365 * 3); // set age to 2 years
+        Cookie c = new Cookie("emailCookie", email);
+        c.setMaxAge(60 * 60 * 24 * 365 * 2); // set age to 2 years
         c.setPath("/");                      // allow entire app to access it
         response.addCookie(c);
 
         // create and return a URL for the appropriate Download page
-        String productCode = (String) session.getAttribute("productCode");
-        String url = "/views/exercise/lesson4/part1/" + productCode + "_download.jsp";
+        Product product = (Product) session.getAttribute("product");
+        String url = "/views/exercise/lesson4/part2/" + product.getCode() + "_download.jsp";
         return url;
    }
 
@@ -139,7 +145,7 @@ public class DownloadServlet extends HttpServlet {
             cookie.setPath("/"); //allow the download application to access it
             response.addCookie(cookie);
         }
-        String url = "/views/exercise/lesson4/part1/delete_cookies.jsp";
+        String url = "/views/exercise/lesson4/part2/delete_cookies.jsp";
         return url;
     }
 }
