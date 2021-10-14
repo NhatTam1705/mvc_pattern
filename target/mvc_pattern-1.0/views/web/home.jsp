@@ -3,6 +3,7 @@
     Created on : Oct 9, 2021, 8:40:33 PM
     Author     : 19110
 --%>
+<%@ include file="/common/taglib.jsp"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -469,7 +470,7 @@
                                             Open Project 4.1
                                         </button>
                                     </form>
-                                     <form action="cart" method="post">
+                                    <form action="cart" method="post">
                                         <button class="btn btn-primary btn-xl text-uppercase mt-5" data-bs-dismiss="modal">
                                             <i class="fas me-1"></i>
                                             Open Project 4.2
