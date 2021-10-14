@@ -1,4 +1,3 @@
-<%@ include file="/common/taglib.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +12,7 @@
 <p>Here's a table with all of the cookies that this 
 browser is sending to the current server.</p>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <table>
   <tr>
     <th>Name</th>

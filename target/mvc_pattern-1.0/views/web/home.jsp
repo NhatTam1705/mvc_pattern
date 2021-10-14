@@ -463,10 +463,12 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
-                                        <i class="fas me-1"></i>
-                                        Open Project
-                                    </button>
+                                    <form action="download" method="">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project 4.1
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
