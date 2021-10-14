@@ -12,7 +12,7 @@
 <p>To register for our downloads, enter your name and email
    address below. Then, click on the Submit button.</p>
 
-<form action="download" method="post">
+<form action="downloadl4p1" method="post">
     <input type="hidden" name="action" value="registerUser">        
     <label class="pad_top">Email:</label>
     <input type="email" name="email" value="${user.email}"><br>

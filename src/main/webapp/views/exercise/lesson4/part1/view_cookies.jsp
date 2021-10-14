@@ -26,9 +26,9 @@ browser is sending to the current server.</p>
   </c:forEach>  
 </table>
 
-<p><a href="download?action=viewAlbums">View list of albums</a></p>
+<p><a href="downloadl4p1?action=viewAlbums">View list of albums</a></p>
 
-<p><a href="download?action=deleteCookies">Delete all persistent cookies</a></p>
+<p><a href="downloadl4p1?action=deleteCookies">Delete all persistent cookies</a></p>
 
 </body>
 </html>

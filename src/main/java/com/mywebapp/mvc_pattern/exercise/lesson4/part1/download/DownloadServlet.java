@@ -2,7 +2,7 @@ package com.mywebapp.mvc_pattern.exercise.lesson4.part1.download;
 
 import java.io.*;
 import javax.servlet.*;
-import javax.servlet.annotation.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
 import com.mywebapp.mvc_pattern.exercise.lesson4.part1.business.User;

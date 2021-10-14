@@ -11,7 +11,7 @@
 
 <p>All persistent cookies have been removed from this browser.</p>
 
-<p><a href="download?action=viewAlbums">View list of albums</a></p>
+<p><a href="downloadl4p1?action=viewAlbums">View list of albums</a></p>
 
 <p><a href="?action=viewCookies">View all cookies</a></p>
 
