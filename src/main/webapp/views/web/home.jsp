@@ -509,10 +509,12 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
-                                        <i class="fas me-1"></i>
-                                        Open Project
-                                    </button>
+                                    <form action="emailListl5" method="post">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project 5
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -544,10 +546,12 @@
                                             <strong></strong>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
-                                        <i class="fas me-1"></i>
-                                        Open Project
-                                    </button>
+                                    <form action="downloadl4p1" method="">
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal">
+                                            <i class="fas me-1"></i>
+                                            Open Project 6
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
