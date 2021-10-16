@@ -27,7 +27,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="images/web/navbar-logo3.jpg" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="images/web/Capture.ico" alt="..." /></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -67,7 +67,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 1</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 3-How to work with NetBeans and Tomcat</div>
+                                <div class="portfolio-caption-subheading text-muted"></div>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 2</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 4 - A crash course in HTML5 and CSS3</div>
+                                <div class="portfolio-caption-subheading text-muted">EmailList</div>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 3</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 5 - How to develop servlets</div>
+                                <div class="portfolio-caption-subheading text-muted">Survey</div>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 4</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 7 - How to work with sessions and cookies</div>
+                                <div class="portfolio-caption-subheading text-muted">Download</div>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 5</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 7 - How to work with sessions and cookies</div>
+                                <div class="portfolio-caption-subheading text-muted">Cart</div>
                             </div>
                         </div>
                     </div>
