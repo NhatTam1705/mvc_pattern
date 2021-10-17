@@ -59,3 +59,22 @@ th, td {
 .align_right {
     text-align: left;
 }
+
+.form2-out{
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.check-your-cart{
+    position: absolute;
+    top: 0;
+    left: 44%;
+}
+
+form input{
+    cursor: pointer;
+}
+
+.form{
+    position: relative;
+}
