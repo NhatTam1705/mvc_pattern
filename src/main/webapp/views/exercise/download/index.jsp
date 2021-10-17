@@ -31,6 +31,9 @@
     Joe Rut - Genuine Wood Grained Finish
 </a>
 </p>
-
+<form class = "form2-out" action="trang-chu" method="post">
+    <!-- <input type="submit" value="Return" style="margin-left: -96px; margin-top: 16px;"> -->
+    <input class ="btn-return" type="submit" value="Return">
+</form>
 </body>
 </html>
