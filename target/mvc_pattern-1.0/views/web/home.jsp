@@ -74,15 +74,18 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">     
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="images/web/portfolio/9.jpg" alt="..." />
+                                </div>  
+                                <img class="img-fluid" src="images/web/portfolio/9.jpg" alt="..." />                         
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 2</div>
                                 <div class="portfolio-caption-subheading text-muted">EmailList</div>
+                                <form action="emailList" method="post">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -98,6 +101,9 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 3</div>
                                 <div class="portfolio-caption-subheading text-muted">Survey</div>
+                                <form action="home-survey" method="post">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -113,6 +119,9 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 4</div>
                                 <div class="portfolio-caption-subheading text-muted">Download</div>
+                                <form action="download" method="">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -128,6 +137,9 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 5</div>
                                 <div class="portfolio-caption-subheading text-muted">Cart</div>
+                                 <form action="home-cart" method="get">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>

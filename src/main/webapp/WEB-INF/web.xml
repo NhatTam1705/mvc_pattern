@@ -7,12 +7,12 @@
 
     <error-page>
         <error-code>404</error-code>
-        <location>/views/exercise/lesson2/part1/error_404.jsp</location>
+        <location>/views/exercise/emaillist/error_404.jsp</location>
     </error-page>
 
     <error-page>
         <exception-type>java.lang.Throwable</exception-type>
-        <location>/views/exercise/lesson2/part1/error_java.jsp</location>
+        <location>/views/exercise/emaillist/error_java.jsp</location>
     </error-page>
 
     <session-config>
