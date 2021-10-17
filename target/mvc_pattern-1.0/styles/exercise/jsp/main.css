@@ -44,23 +44,17 @@ br {
     cursor:pointer;
 }
 
-.form-in{
+.form-out{
     position:absolute;
-}
-.form1-out{
-    position:relative;
-    margin-left: 220px;
-    margin-top: 100px;
-}
-.btn-return{
-    cursor:pointer;
+    top: 80%;
+    left: 56%;
 }
 
-.form2-out{
-    position:absolute;
-    margin-left: 100px;
-    margin-top: 368px;
+form input{
+    cursor: pointer;
 }
-.btn-return{
-    cursor:pointer;
+
+.form{
+    position: relative;
 }
+

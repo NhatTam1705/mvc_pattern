@@ -24,5 +24,8 @@
     <label>Last Name:</label>
     <%out.print(lastName);%><br>
 
+    <form action="<c:url value='/views/exercise/jsp/index.jsp'/>">
+        <input type="submit" value="Return">
+    </form>
 </body>
 </html>
