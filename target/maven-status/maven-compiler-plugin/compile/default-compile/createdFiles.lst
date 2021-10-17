@@ -3,6 +3,7 @@ com\mywebapp\mvc_pattern\exercise\download\business\User.class
 com\mywebapp\mvc_pattern\web\Controller.class
 com\mywebapp\mvc_pattern\exercise\cart\cart\ProductsServlet.class
 com\mywebapp\mvc_pattern\exercise\survey\business\User.class
+com\mywebapp\mvc_pattern\exercise\jsp\ControllerJSP.class
 com\mywebapp\mvc_pattern\exercise\cart\business\Product.class
 com\mywebapp\mvc_pattern\exercise\cart\business\LineItem.class
 com\mywebapp\mvc_pattern\exercise\download\util\CookieUtil.class

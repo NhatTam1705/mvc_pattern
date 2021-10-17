@@ -67,7 +67,10 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 1</div>
-                                <div class="portfolio-caption-subheading text-muted"></div>
+                                <div class="portfolio-caption-subheading text-muted">Jsp-Servlet</div>
+                                <form action="home-jsp" method="post">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>
