@@ -140,7 +140,7 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 5</div>
                                 <div class="portfolio-caption-subheading text-muted">Cart</div>
-                                 <form action="home-cart" method="get">
+                                <form action="home-cart" method="get">
                                     <input class="btn-primary mt-2" type="submit" value="Open Project">
                                 </form>
                             </div>
@@ -157,7 +157,10 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Exercise 6</div>
-                                <div class="portfolio-caption-subheading text-muted">This item is currently unavailable</div>
+                                <div class="portfolio-caption-subheading text-muted">Sql Gateway</div>
+                                <form action="home-sql" method="get">
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                </form>
                             </div>
                         </div>
                     </div>
