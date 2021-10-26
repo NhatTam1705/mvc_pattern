@@ -20,7 +20,7 @@
     <textarea name="sqlStatement" cols="60" rows="8">${sqlStatement}</textarea>
     <input type="submit" value="Execute">
 </form>
-<form action="trang-chu">
+<form action="trang-chu" style="margin-top:10px">
     <input type="submit" value="Return">
 </form>
 
