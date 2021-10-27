@@ -211,10 +211,10 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Final Project</div>
-                                <div class="portfolio-caption-subheading text-muted">
+                                <div class="portfolio-caption-subheading text-muted"> HTV Company
                                     <%-- <a href="https://htvcompany.herokuapp.com/">See more</a> --%>
                                 </div>
-                                <input href="https://htvcompany.herokuapp.com" class="btn-primary mt-2" type="submit" value="Open Project"> 
+                                <input href="https://htvcompany.herokuapp.com" class="btn-primary mt-2" value="Open Project"> 
                                 
                             </div>
                         </div>
