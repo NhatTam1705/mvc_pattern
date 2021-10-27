@@ -204,8 +204,10 @@
                                 <img class="img-fluid" src="images/web/portfolio/9.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Exercise 6</div>
-                                <div class="portfolio-caption-subheading text-muted">This item is currently unavailable</div>
+                                <div class="portfolio-caption-heading">Final Project</div>
+                                <div class="portfolio-caption-subheading text-muted">
+                                    <a href="https://htvcompany.herokuapp.com/">See more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
