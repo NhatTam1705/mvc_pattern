@@ -174,8 +174,11 @@
                                 <img class="img-fluid" src="images/web/portfolio/9.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Exercise 4</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 7 - How to work with sessions and cookies</div>
+                                <div class="portfolio-caption-heading">Exercise 7</div>
+                                <div class="portfolio-caption-subheading text-muted">Undeveloped Feature</div>
+                                <%-- <form action="home-sql" method="get"> --%>
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                <%-- </form> --%>
                             </div>
                         </div>
                     </div>
@@ -189,8 +192,11 @@
                                 <img class="img-fluid" src="images/web/portfolio/9.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Exercise 5</div>
-                                <div class="portfolio-caption-subheading text-muted">Topic 7 - How to work with sessions and cookies</div>
+                                <div class="portfolio-caption-heading">Exercise 8</div>
+                                <div class="portfolio-caption-subheading text-muted">Undeveloped Feature</div>
+                                <%-- <form action="home-sql" method="get"> --%>
+                                    <input class="btn-primary mt-2" type="submit" value="Open Project">
+                                <%-- </form> --%>
                             </div>
                         </div>
                     </div>
@@ -206,7 +212,11 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Final Project</div>
                                 <div class="portfolio-caption-subheading text-muted">
-                                    <a href="https://htvcompany.herokuapp.com/">See more</a>
+                                    <%-- <a href="https://htvcompany.herokuapp.com/">See more</a> --%>
+                                </div>
+                                <%-- <input class="btn-primary mt-2" type="submit" value="Open Project"> --%>
+                                <div class="btn-primary mt-2">
+                                    <a href="https://htvcompany.herokuapp.com/">Open Project</a>
                                 </div>
                             </div>
                         </div>
