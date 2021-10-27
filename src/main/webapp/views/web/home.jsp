@@ -214,10 +214,8 @@
                                 <div class="portfolio-caption-subheading text-muted">
                                     <%-- <a href="https://htvcompany.herokuapp.com/">See more</a> --%>
                                 </div>
-                                <%-- <input class="btn-primary mt-2" type="submit" value="Open Project"> --%>
-                                <div class="btn-primary mt-2">
-                                    <a href="https://htvcompany.herokuapp.com/">Open Project</a>
-                                </div>
+                                <input href="https://htvcompany.herokuapp.com" class="btn-primary mt-2" type="submit" value="Open Project"> 
+                                
                             </div>
                         </div>
                     </div>
