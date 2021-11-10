@@ -212,7 +212,7 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Final Project</div>
                                 <div class="portfolio-caption-subheading text-muted"> HTV Company</div> 
-                                <a href="https://htvcompany.herokuapp.com/">See more</a>                                                             
+                                <a href="https://htvcompany.herokuapp.com/" target="_blank" >See more</a>                                                             
                             </div>
                         </div>
                     </div>
